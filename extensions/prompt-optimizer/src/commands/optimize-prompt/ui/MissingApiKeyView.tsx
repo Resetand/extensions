@@ -1,5 +1,5 @@
 import React from "react";
-import { Action, ActionPanel, Detail, openExtensionPreferences } from "@raycast/api";
+import { Action, ActionPanel, Detail, Icon, openExtensionPreferences } from "@raycast/api";
 import { OPENAI_API_KEYS_URL } from "shared/constants";
 
 function buildMissingApiKeyMarkdown(): string {
@@ -13,7 +13,7 @@ export const MissingApiKeyView: React.FC = () => {
       actions={
         <ActionPanel>
           <Action.OpenInBrowser url={OPENAI_API_KEYS_URL} title="Open OpenAI API Keys" />
-          <Action title="Open Extension Preferences" onAction={openExtensionPreferences} />
+          <Action icon={Icon.Gear} title="Open Extension Preferences" onAction={openExtensionPreferences} />
         </ActionPanel>
       }
     />

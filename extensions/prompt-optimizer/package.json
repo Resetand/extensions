@@ -17,7 +17,6 @@
     {
       "name": "optimize-prompt",
       "title": "Optimize Prompt",
-      "subtitle": "Prepare prompts for AI tools and agents",
       "description": "Rewrite and refine a prompt to make it clear, unambiguous, and ready for reliable execution by AI tools or agents.",
       "mode": "view"
     }

@@ -24,7 +24,6 @@ export const OptimizedPromptDetail: React.FC<OptimizedPromptDetailProps> = ({
 }) => {
   return (
     <Detail
-      navigationTitle=""
       markdown={optimizedPrompt}
       actions={
         <ActionPanel>
